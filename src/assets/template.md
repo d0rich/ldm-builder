@@ -3,8 +3,9 @@
 Madame, Monsieur,
 
 Actuellement étudiant en Licence MIAGE à l’Université Grenoble Alpes, où j’ai suivi ma L3 entièrement en français, 
-et futur étudiant en Master MIAGE, je recherche une alternance de deux ans à partir de la rentrée 2026 en tant 
-que {{POSTE}}. Cette expérience d’étude en France témoigne de ma bonne intégration, de mon autonomie et du fait 
+et futur étudiant en Master MIAGE, je recherche une alternance de deux ans à partir de la rentrée 2026. Le poste **{{POSTE}}**
+représente pour moi une excellente opportunité d'allier mes compétences techniques à un environnement professionnel stimulant. 
+Cette expérience d’étude en France témoigne de ma bonne intégration, de mon autonomie et du fait 
 que la langue ne constitue pas un frein dans mon travail au quotidien. Votre entreprise **{{ENTREPRISE}}**, correspond 
 pleinement à mon projet professionnel dans l'ingénierie logicielle.
 
