@@ -6,7 +6,7 @@ Actuellement étudiant en Licence MIAGE à l’Université Grenoble Alpes, où j
 et futur étudiant en Master MIAGE, je recherche une alternance de deux ans à partir de la rentrée 2026 en tant 
 que {{POSTE}}. Cette expérience d’étude en France témoigne de ma bonne intégration, de mon autonomie et du fait 
 que la langue ne constitue pas un frein dans mon travail au quotidien. Votre entreprise **{{ENTREPRISE}}**, correspond 
-pleinement à mon projet professionnel dans le développement logiciel et les applications de la data et de l’IA.
+pleinement à mon projet professionnel dans l'ingénierie logicielle.
 
 Au cours de mes expériences en développement logiciel, full‑stack et data, j’ai travaillé avec **JavaScript** / **TypeScript** et 
 des frameworks front‑end tels que **React**, **Vue** et **Angular**, ainsi qu’avec des technologies back‑end comme **Node.js**, **Python**, **Java**, 
