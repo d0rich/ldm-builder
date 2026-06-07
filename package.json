@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^14.3.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "vue": "^3.5.34"
