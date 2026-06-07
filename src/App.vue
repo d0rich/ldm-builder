@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import MotivationLetter, { type Replacements } from './components/MotivationLetter.vue'
+import ReplacementsForm from './components/ReplacementsForm.vue'
 
 const replacements = ref<Replacements>({
   poste: 'Développeur Web',
@@ -9,7 +10,8 @@ const replacements = ref<Replacements>({
 </script>
 
 <template>
-  <main class="max-w-3xl mx-auto px-6 py-12">
+  <main class="max-w-3xl mx-auto px-6 py-12 flex flex-col gap-8">
+    <ReplacementsForm v-model="replacements" />
     <MotivationLetter :replacements="replacements" />
   </main>
 </template>
