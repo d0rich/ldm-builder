@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useLocalStorage } from '@vueuse/core'
 import MotivationLetter, { type Replacements } from './components/MotivationLetter.vue'
 import ReplacementsForm from './components/ReplacementsForm.vue'
 
-const replacements = ref<Replacements>({
+const replacements = useLocalStorage<Replacements>('ldm-replacements', {
   poste: 'Développeur Web',
   entreprise: 'Tech Solutions'
 })
