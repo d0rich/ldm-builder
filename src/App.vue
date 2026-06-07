@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import MotivationLetter from './components/MotivationLetter.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <MotivationLetter />
+  </main>
 </template>

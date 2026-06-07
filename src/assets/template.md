@@ -18,5 +18,5 @@ Motivé, curieux et autonome, je souhaite mettre ces compétences au service de 
 à vos côtés durant l’alternance. Je serais ravi d’échanger avec vous lors d’un entretien pour vous présenter plus en 
 détail ma candidature et la manière dont je peux contribuer aux objectifs de **{{ENTREPRISE}}**.
 
-Cordialement,
+Cordialement,  
 Nikolai DOROFEEV
