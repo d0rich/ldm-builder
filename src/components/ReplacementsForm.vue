@@ -2,6 +2,7 @@
 import type { Replacements } from './MotivationLetter.vue'
 
 const model = defineModel<Replacements>({ required: true })
+const showInjection = defineModel<boolean>('showInjection', { default: false })
 
 const print = () => window.print()
 </script>
@@ -30,6 +31,11 @@ const print = () => window.print()
           class="input w-full"
         />
       </fieldset>
+
+      <label class="label cursor-pointer justify-start gap-3">
+        <input v-model="showInjection" type="checkbox" class="toggle toggle-primary" />
+        <span class="label-text">Afficher l'injection</span>
+      </label>
 
       <div class="card-actions justify-end">
         <button type="submit" class="btn btn-primary">

@@ -6,6 +6,8 @@ import MotivationLetter, { type Replacements } from './components/MotivationLett
 import ReplacementsForm from './components/ReplacementsForm.vue'
 import Injection from './components/Injection.vue'
 
+const showInjection = useLocalStorage('ldm-show-injection', false)
+
 const replacements = useLocalStorage<Replacements>('ldm-replacements', {
   poste: 'Développeur Web',
   entreprise: 'Tech Solutions'
@@ -23,8 +25,8 @@ useHead({ title })
 <template>
   <main class="max-w-3xl mx-auto px-6 py-12 flex flex-col gap-8">
     <div>
-      <ReplacementsForm v-model="replacements" />
-      <Injection />
+      <ReplacementsForm v-model="replacements" v-model:showInjection="showInjection" />
+      <Injection v-if="showInjection" />
     </div>
     <MotivationLetter :replacements="replacements" />
   </main>
