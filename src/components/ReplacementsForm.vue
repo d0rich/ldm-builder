@@ -3,6 +3,7 @@ import type { Replacements } from './MotivationLetter.vue'
 
 const model = defineModel<Replacements>({ required: true })
 const showInjection = defineModel<boolean>('showInjection', { default: false })
+const modeJunior = defineModel<boolean>('modeJunior', { default: false })
 
 const print = () => window.print()
 </script>
@@ -31,6 +32,11 @@ const print = () => window.print()
           class="input w-full"
         />
       </fieldset>
+
+      <label class="label cursor-pointer justify-start gap-3">
+        <input v-model="modeJunior" type="checkbox" class="toggle toggle-primary" />
+        <span class="label-text">Candidature junior</span>
+      </label>
 
       <label class="label cursor-pointer justify-start gap-3">
         <input v-model="showInjection" type="checkbox" class="toggle toggle-primary" />

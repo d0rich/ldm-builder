@@ -7,6 +7,7 @@ import ReplacementsForm from './components/ReplacementsForm.vue'
 import Injection from './components/Injection.vue'
 
 const showInjection = useLocalStorage('ldm-show-injection', false)
+const modeJunior = useLocalStorage('ldm-mode-junior', false)
 
 const replacements = useLocalStorage<Replacements>('ldm-replacements', {
   poste: 'Développeur Web',
@@ -25,9 +26,13 @@ useHead({ title })
 <template>
   <main class="max-w-3xl mx-auto px-6 py-12 flex flex-col gap-8">
     <div>
-      <ReplacementsForm v-model="replacements" v-model:showInjection="showInjection" />
+      <ReplacementsForm 
+        v-model="replacements" 
+        v-model:showInjection="showInjection" 
+        v-model:modeJunior="modeJunior" 
+      />
       <Injection v-if="showInjection" />
     </div>
-    <MotivationLetter :replacements="replacements" />
+    <MotivationLetter :replacements="replacements" :junior="modeJunior" />
   </main>
 </template>
